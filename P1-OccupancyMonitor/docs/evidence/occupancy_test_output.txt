@@ -1,0 +1,67 @@
+
+===== OCCUPANCY SKETCH LOGIC TEST =====
+
+
+--- Scenario 1: power on, facility empty ---
+  occupancy starts at 0                            PASS
+  capacity is 5                                    PASS
+  green LED is ON (room available)                 PASS
+  red LED is OFF                                   PASS
+  LCD line 1 shows Inside: 0/5                     PASS  Inside: 0/5     
+  LCD line 2 shows Free: 5                         PASS  Free: 5  Open   
+  LCD line 2 shows Open                            PASS  Free: 5  Open   
+
+--- Scenario 2: three people enter ---
+ENTRY #1 (inside: 1)
+ENTRY #2 (inside: 2)
+ENTRY #3 (inside: 3)
+  occupancy is 3                                   PASS
+  total entries counted                            PASS
+  green LED still ON                               PASS
+  LCD shows Inside: 3/5                            PASS  Inside: 3/5     
+  LCD shows 2 free places                          PASS  Free: 2  Open   
+
+--- Scenario 3: fill the facility to capacity ---
+ENTRY #4 (inside: 4)
+ENTRY #5 (inside: 5)
+  occupancy reached capacity 5                     PASS
+  green LED is OFF                                 PASS
+  red LED is ON (full)                             PASS
+  LCD shows Inside: 5/5                            PASS  Inside: 5/5     
+  LCD shows Free: 0                                PASS  Free: 0  FULL!  
+  LCD shows FULL!                                  PASS  Free: 0  FULL!  
+
+--- Scenario 4: entry refused while full ---
+REJECTED (full, inside: 5)
+  occupancy is still 5                             PASS
+  rejected entry counted                           PASS
+  red LED still ON                                 PASS
+
+--- Scenario 5: bounce is ignored ---
+EXIT #1 (inside: 4)
+  only one exit was accepted                       PASS  4 inside
+  total exits is 1                                 PASS
+  green LED back ON                                PASS
+
+--- Scenario 6: empty the room, then try to leave again ---
+EXIT #2 (inside: 3)
+EXIT #3 (inside: 2)
+EXIT #4 (inside: 1)
+EXIT #5 (inside: 0)
+REJECTED (empty)
+  occupancy reached 0                              PASS
+  rejected exit counted                            PASS
+  LCD shows Free: 5 again                          PASS  Free: 5  Open   
+  LCD shows Open again                             PASS  Free: 5  Open   
+
+--- Scenario 7: the display refreshes on its own timer ---
+ENTRY #6 (inside: 1)
+  LCD still stale 100 ms after the change          PASS  Inside: 0/5     
+  LCD catches up after 500 ms                      PASS  Inside: 1/5     
+
+--- Scenario 8: the event log grows as it fills ---
+  event log expanded past its first 4 slots        PASS  16 slots
+  every accepted and refused action was logged     PASS  14 events
+
+===== RESULT: 32 checks, 0 failure(s) =====
+

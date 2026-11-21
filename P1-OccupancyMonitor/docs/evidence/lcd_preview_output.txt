@@ -1,0 +1,158 @@
+============================================================
+ OCCUPANCY MONITOR - LCD PREVIEW (no hardware required)
+============================================================
+
+POWER ON - the room is empty
+  LCD:
+  +----------------+
+  |Inside: 0/5     |
+  |Free: 5  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+ENTRY press 1
+  Serial Monitor:
+    ENTRY #1 (inside: 1)
+  LCD:
+  +----------------+
+  |Inside: 1/5     |
+  |Free: 4  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+ENTRY press 2
+  Serial Monitor:
+    ENTRY #2 (inside: 2)
+  LCD:
+  +----------------+
+  |Inside: 2/5     |
+  |Free: 3  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+ENTRY press 3
+  Serial Monitor:
+    ENTRY #3 (inside: 3)
+  LCD:
+  +----------------+
+  |Inside: 3/5     |
+  |Free: 2  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+ENTRY press 4
+  Serial Monitor:
+    ENTRY #4 (inside: 4)
+  LCD:
+  +----------------+
+  |Inside: 4/5     |
+  |Free: 1  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+ENTRY press 5
+  Serial Monitor:
+    ENTRY #5 (inside: 5)
+  LCD:
+  +----------------+
+  |Inside: 5/5     |
+  |Free: 0  FULL!  |
+  +----------------+
+  Green LED: off   Red LED: ON 
+
+ENTRY press 6 - refused, the facility is full
+  Serial Monitor:
+    REJECTED (full, inside: 5)
+  LCD:
+  +----------------+
+  |Inside: 5/5     |
+  |Free: 0  FULL!  |
+  +----------------+
+  Green LED: off   Red LED: ON 
+
+EXIT press 1
+  Serial Monitor:
+    EXIT #1 (inside: 4)
+  LCD:
+  +----------------+
+  |Inside: 4/5     |
+  |Free: 1  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+EXIT press 2
+  Serial Monitor:
+    EXIT #2 (inside: 3)
+  LCD:
+  +----------------+
+  |Inside: 3/5     |
+  |Free: 2  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+EXIT press 3
+  Serial Monitor:
+    EXIT #3 (inside: 2)
+  LCD:
+  +----------------+
+  |Inside: 2/5     |
+  |Free: 3  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+EXIT press 4
+  Serial Monitor:
+    EXIT #4 (inside: 1)
+  LCD:
+  +----------------+
+  |Inside: 1/5     |
+  |Free: 4  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+EXIT press 5
+  Serial Monitor:
+    EXIT #5 (inside: 0)
+  LCD:
+  +----------------+
+  |Inside: 0/5     |
+  |Free: 5  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+EXIT press 6 - refused, nobody is inside
+  Serial Monitor:
+    REJECTED (empty)
+  LCD:
+  +----------------+
+  |Inside: 0/5     |
+  |Free: 5  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+10 seconds later - the statistics and the event log print on their own
+  Serial Monitor:
+    --- Stats ---
+    Inside: 0
+    Entries: 5
+    Exits: 5
+    Rejected in: 1
+    Rejected out: 1
+    Recent events (13 logged):
+      6900 ms - EXIT #2 (inside: 3)
+      7500 ms - EXIT #3 (inside: 2)
+      8100 ms - EXIT #4 (inside: 1)
+      8700 ms - EXIT #5 (inside: 0)
+      9300 ms - REJECTED (empty)
+    --------------
+  LCD:
+  +----------------+
+  |Inside: 0/5     |
+  |Free: 5  Open   |
+  +----------------+
+  Green LED: ON    Red LED: off
+
+============================================================
+ End of preview. Capacity was never exceeded and never went
+ below zero, and the indicators followed the occupancy.
+============================================================

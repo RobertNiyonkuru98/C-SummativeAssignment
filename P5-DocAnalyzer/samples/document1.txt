@@ -1,0 +1,12 @@
+Internet of Things in the Modern Home
+
+The Internet of Things (IoT) has changed how households manage energy. An IoT
+thermostat learns a family's routine and adjusts heating before anyone wakes up.
+Each IoT device reports to a hub, and the hub decides when to act.
+
+Security remains the biggest concern for any IoT deployment. A poorly secured
+IoT camera can expose a whole home network. Manufacturers now sign firmware
+updates, and some IoT standards require encrypted local traffic.
+
+The same technology powers industrial monitoring, where thousands of IoT
+sensors measure temperature, pressure and vibration on a factory floor.

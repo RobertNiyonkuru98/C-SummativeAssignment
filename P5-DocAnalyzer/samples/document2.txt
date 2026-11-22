@@ -1,0 +1,12 @@
+Cloud Computing and Edge Devices
+
+Cloud platforms provide storage, compute and managed databases on demand.
+A typical application moves static content to a content delivery network and
+keeps business logic in a managed container service.
+
+Edge computing pushes some of that work closer to the user. A single IoT
+gateway, for example, can filter sensor readings locally and only upload
+summaries, which reduces bandwidth and latency.
+
+Most teams combine both approaches: cloud for durable state, edge for
+latency-sensitive decisions.

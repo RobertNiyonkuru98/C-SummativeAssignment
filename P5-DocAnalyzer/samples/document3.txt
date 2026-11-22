@@ -1,0 +1,8 @@
+Data Structures in Practice
+
+Arrays store elements in contiguous memory, which makes indexing fast but
+insertion expensive. Linked lists trade indexing speed for cheap insertion and
+deletion. Hash tables map keys to buckets and give average constant-time lookup.
+
+Choosing a structure is a trade-off between memory, speed and simplicity.
+A queue is the right tool for background jobs; a stack suits undo history.

@@ -1,0 +1,38 @@
+==============================================================
+  SYSTEM HEALTH REPORT
+  Generated : 2026-11-25 17:54:12
+  Hostname  : UTB-CFO-LAPTOP
+  Kernel    : 5.15.167.4-microsoft-standard-WSL2
+  Uptime    : up 16 hours, 57 minutes
+==============================================================
+
+CPU
+---
+  Usage     : 75% is the configured warning threshold
+
+MEMORY
+------
+  MemTotal:      7818.02 MB
+  MemFree:       908.457 MB
+  MemAvailable:  3295.41 MB
+
+DISK
+----
+  Filesystem      Size  Used Avail Use% Mounted on
+  none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+  drivers         470G  462G  8.9G  99% /usr/lib/wsl/drivers
+  /dev/sdc       1007G   49G  907G   6% /
+  none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+  rootfs          3.9G  2.4M  3.9G   1% /init
+  none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+  none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+  C:\             470G  462G  8.9G  99% /mnt/c
+
+TOP CPU PROCESSES
+-----------------
+      PID %CPU %MEM COMMAND
+   135088  108  0.3 umi-ui
+   126085  3.4  4.7 2.1.332
+     1972  1.6  4.4 2.1.330
+     5269  1.1  3.8 2.1.331
+    43984  0.6  3.2 claude

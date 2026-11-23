@@ -1,0 +1,5 @@
+$ bash -n systemhealth.sh
+syntax OK (exit 0)
+
+$ shellcheck -S warning systemhealth.sh
+no warnings (exit 0)

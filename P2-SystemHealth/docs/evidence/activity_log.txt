@@ -1,0 +1,10 @@
+[2026-11-25 17:53:51] Monitoring session started
+[2026-11-25 17:53:53] Viewed system information
+[2026-11-25 17:53:58] Monitored CPU: 13% (threshold 75%)
+[2026-11-25 17:54:03] Monitored memory: 57% (threshold 70%)
+[2026-11-25 17:54:06] WARNING: 2 filesystem(s) at or above 90%
+[2026-11-25 17:54:09] Searched process by name "bash" (found)
+[2026-11-25 17:54:12] Generated health report /home/robert/.syshealth/reports/health-report-20261125-175412.txt
+[2026-11-25 17:54:19] ERROR: tried to terminate missing PID 999999
+[2026-11-25 17:54:22] REFUSED: attempt to terminate protected PID 1
+[2026-11-25 17:54:27] Monitoring session ended

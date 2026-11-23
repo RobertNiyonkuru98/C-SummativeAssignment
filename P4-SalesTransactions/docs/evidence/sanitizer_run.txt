@@ -1,0 +1,391 @@
+  [mem] transactions 0 -> 4 slots
+
+  ==================================================================
+  Student ID : 100
+  Project    : Sales Transaction Processing and Analysis System
+  Storage    : sales_transactions.txt
+  ==================================================================
+
+  Loaded 4 sample transaction(s) (capacity 4).
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  --- Transactions (4) ---
+  ID    Product                        Qty         Unit          Total  Date
+  ----- ---------------------------- ----- ------------ --------------  ----------
+  1001  Laptop Pro 14                    2    850000.00     1700000.00  2026-11-20
+  1002  Wireless Mouse                  15     18000.00      270000.00  2026-11-21
+  1003  USB-C Hub                        7     42000.00      294000.00  2026-11-22
+  1004  Monitor 27in                     3    320000.00      960000.00  2026-11-23
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  --- Add a new transaction ---
+  [mem] transactions 4 -> 8 slots
+  Transaction ID:   Product name:   Quantity (1-10000):   Unit price (0.01-10000000):   Added transaction #1005: Keyboard Mechanical, 4 x 95000.00 = 380000.00 (dated 2026-11-25).
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sales processing operations:
+    1. Total revenue
+    2. Average transaction value
+    3. Highest-value transaction
+    4. Lowest-value transaction
+    5. Total units sold
+  Choice: 
+  Total revenue           : 3604000.00
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sales processing operations:
+    1. Total revenue
+    2. Average transaction value
+    3. Highest-value transaction
+    4. Lowest-value transaction
+    5. Total units sold
+  Choice: 
+  Average transaction     : 720800.00
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sales processing operations:
+    1. Total revenue
+    2. Average transaction value
+    3. Highest-value transaction
+    4. Lowest-value transaction
+    5. Total units sold
+  Choice: 
+  Highest transaction     : #1001 Laptop Pro 14 (1700000.00)
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sales processing operations:
+    1. Total revenue
+    2. Average transaction value
+    3. Highest-value transaction
+    4. Lowest-value transaction
+    5. Total units sold
+  Choice: 
+  Lowest transaction      : #1002 Wireless Mouse (270000.00)
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sales processing operations:
+    1. Total revenue
+    2. Average transaction value
+    3. Highest-value transaction
+    4. Lowest-value transaction
+    5. Total units sold
+  Choice: 
+  Total units sold        : 31
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Filter by callbacks:
+    1. Total amount at least a given value
+    2. Product name contains text
+    3. Quantity at least a given value
+  Choice: 
+  Minimum total amount:   ID    Product                        Qty         Unit          Total  Date
+  ----- ---------------------------- ----- ------------ --------------  ----------
+  1001  Laptop Pro 14                    2    850000.00     1700000.00  2026-11-20
+  1004  Monitor 27in                     3    320000.00      960000.00  2026-11-23
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Filter by callbacks:
+    1. Total amount at least a given value
+    2. Product name contains text
+    3. Quantity at least a given value
+  Choice: 
+  Product text:   ID    Product                        Qty         Unit          Total  Date
+  ----- ---------------------------- ----- ------------ --------------  ----------
+  1004  Monitor 27in                     3    320000.00      960000.00  2026-11-23
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Search by:
+    1. Transaction ID
+    2. Product name
+    3. Exact total amount
+  Choice: 
+  Product text:   Results:
+  ID    Product                        Qty         Unit          Total  Date
+  ----- ---------------------------- ----- ------------ --------------  ----------
+  1002  Wireless Mouse                  15     18000.00      270000.00  2026-11-21
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Sort by:
+    1. Transaction ID
+    2. Product name
+    3. Total amount (ascending)
+    4. Total amount (descending)
+  Choice:   Sorted.
+
+  --- Transactions (5) ---
+  ID    Product                        Qty         Unit          Total  Date
+  ----- ---------------------------- ----- ------------ --------------  ----------
+  1001  Laptop Pro 14                    2    850000.00     1700000.00  2026-11-20
+  1004  Monitor 27in                     3    320000.00      960000.00  2026-11-23
+  1005  Keyboard Mechanical              4     95000.00      380000.00  2026-11-25
+  1003  USB-C Hub                        7     42000.00      294000.00  2026-11-22
+  1002  Wireless Mouse                  15     18000.00      270000.00  2026-11-21
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  ============== SALES REPORT ==============
+  Transactions recorded  : 5
+  Total revenue          : 3604000.00
+  Average transaction    : 720800.00
+  Total units sold       : 31
+  Highest transaction    : #1001 Laptop Pro 14 (1700000.00)
+  Lowest transaction     : #1002 Wireless Mouse (270000.00)
+
+  Revenue by product:
+    Laptop Pro 14                  1700000.00
+    Monitor 27in                    960000.00
+    Keyboard Mechanical             380000.00
+    USB-C Hub                       294000.00
+    Wireless Mouse                  270000.00
+  =========================================
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice:   Saved 5 transaction(s) to "sales_transactions.txt".
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice:   Loaded 5 transaction(s) from "sales_transactions.txt".
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice:   Transaction ID to delete:   Deleting #1002 (Wireless Mouse, 270000.00).
+  Deleted. Transactions now: 4 (capacity 8).
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice:   Saved 4 transaction(s) to "sales_transactions.txt".
+
+  ------------------------- MENU -------------------------
+   1. Add a new transaction
+   2. Display all transactions
+   3. Update a transaction
+   4. Delete a transaction
+   5. Process sales data (function pointers)
+   6. Filter transactions (callbacks)
+   7. Search transactions
+   8. Sort transactions
+   9. Generate the sales report
+  10. Save transactions to file
+  11. Load transactions from file
+  12. Exit
+  --------------------------------------------------------
+  Enter choice: 
+  Save before exiting? [y/N]:   Exiting.
+
+  All memory released. Goodbye.

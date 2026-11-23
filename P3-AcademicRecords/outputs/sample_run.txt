@@ -1,0 +1,437 @@
+  [mem] records 0 -> 4 slots
+
+  ==================================================================
+  Student ID : 100
+  Project    : Student Academic Records and Performance Analytics
+  Storage    : academic_records.txt
+  ==================================================================
+
+  Loaded 3 sample student(s) (capacity 4).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 2
+
+  --- Registered students (3) ---
+  ID     First        Last         Programme                Yr     Avg
+  ------ ------------ ------------ ------------------------ -- -------
+  1001   Aline        Uwase        Computer Science          2   65.7%
+  1002   Kevin        Niyonzima    Information Technology    1   53.5%
+  1003   Diane        Mukamana     Computer Science          3   85.0%
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 3
+  Student ID: 1001
+
+  --- Student detail ---
+  ID        : 1001
+  Name      : Aline Uwase
+  Programme : Computer Science
+  Year      : 2
+  Courses   : 3
+  Code       Course                               Mark    Max
+  CS101      C Programming                          78    100
+  CS102      Data Structures                        65    100
+  MA101      Discrete Mathematics                   54    100
+  Average   : 65.67%
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1004
+  First name: Grace
+  Last name: Iradukunda
+  Programme: Computer Science
+  Year of study (1-6): 2
+  Registered Grace Iradukunda (ID 1004, Computer Science, year 2).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 6
+  Student ID: 1004
+  Course code: CS101
+  Course name: C Programming
+  Maximum marks (1-1000): 100
+  Marks obtained: 72
+  Added CS101 (C Programming) to Grace Iradukunda.
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 6
+  Student ID: 1004
+  Course code: CS103
+  Course name: Algorithms
+  Maximum marks (1-1000): 100
+  Marks obtained: 58
+  Added CS103 (Algorithms) to Grace Iradukunda.
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 8
+  Student ID: 1004
+
+  --- Performance for Grace Iradukunda (ID 1004) ---
+  Code       Course                                 Mark  Percent
+  CS101      C Programming                        72/100    72.0%
+  CS103      Algorithms                           58/100    58.0%
+
+  Overall average : 65.00%
+  Courses passed  : 2 of 2
+  Status          : PASS
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 7
+  Student ID: 1004
+  Course code: CS101
+  Current marks: 72 / 100
+  New marks: 80
+  Marks updated to 80 / 100.
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 9
+
+  Search by:
+    1. Student ID
+    2. First or last name
+    3. Programme of study
+  Choice: 2
+  Name to search for: grace
+
+  Search results:
+  ID     First        Last         Programme                Yr     Avg
+  ------ ------------ ------------ ------------------------ -- -------
+  1004   Grace        Iradukunda   Computer Science          2   69.0%
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 10
+
+  Sort by:
+    1. Student ID
+    2. Name (alphabetical)
+    3. Overall average (highest first)
+    4. Programme of study
+  Choice: 3
+  Sorted.
+
+  --- Registered students (4) ---
+  ID     First        Last         Programme                Yr     Avg
+  ------ ------------ ------------ ------------------------ -- -------
+  1003   Diane        Mukamana     Computer Science          3   85.0%
+  1004   Grace        Iradukunda   Computer Science          2   69.0%
+  1001   Aline        Uwase        Computer Science          2   65.7%
+  1002   Kevin        Niyonzima    Information Technology    1   53.5%
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 11
+
+  ============== ACADEMIC PERFORMANCE REPORT ==============
+  Registered students      : 4
+  Courses registered       : 10
+  Overall average          : 69.70%
+  Highest average student  : Diane Mukamana (85.00%)
+  Lowest average student   : Kevin Niyonzima (53.50%)
+  Passing (average >= 50%) : 4
+  Failing                  : 0
+
+  Average performance per course:
+    Code       Course                              Taken  Average
+    CS102      Data Structures                         2    76.5%
+    CS201      Operating Systems                       1    91.0%
+    MA102      Linear Algebra                          1    76.0%
+    CS101      C Programming                           3    67.7%
+    CS103      Algorithms                              1    58.0%
+    MA101      Discrete Mathematics                    1    54.0%
+    IT101      Web Technologies                        1    62.0%
+
+  Students per programme of study:
+    Computer Science               3
+    Information Technology         1
+  ========================================================
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 12
+  Saved 4 student(s) to "academic_records.txt".
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 13
+  Loaded 4 student(s) from "academic_records.txt".
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1002
+  Deleting Kevin Niyonzima (ID 1002).
+  Deleted. Students now: 3 (capacity 4).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 11
+
+  ============== ACADEMIC PERFORMANCE REPORT ==============
+  Registered students      : 3
+  Courses registered       : 8
+  Overall average          : 73.75%
+  Highest average student  : Diane Mukamana (85.00%)
+  Lowest average student   : Aline Uwase (65.67%)
+  Passing (average >= 50%) : 3
+  Failing                  : 0
+
+  Average performance per course:
+    Code       Course                              Taken  Average
+    CS102      Data Structures                         2    76.5%
+    CS201      Operating Systems                       1    91.0%
+    MA102      Linear Algebra                          1    76.0%
+    CS101      C Programming                           2    79.0%
+    CS103      Algorithms                              1    58.0%
+    MA101      Discrete Mathematics                    1    54.0%
+
+  Students per programme of study:
+    Computer Science               3
+  ========================================================
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 12
+  Saved 3 student(s) to "academic_records.txt".
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 14
+
+  Save before exiting? [y/N]: n
+  Exiting.
+
+  All memory released. Goodbye.

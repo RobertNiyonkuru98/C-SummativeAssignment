@@ -1,0 +1,12 @@
+3
+1003|Diane|Mukamana|Computer Science|3|3
+CS102|Data Structures|88|100
+CS201|Operating Systems|91|100
+MA102|Linear Algebra|76|100
+1004|Grace|Iradukunda|Computer Science|2|2
+CS101|C Programming|80|100
+CS103|Algorithms|58|100
+1001|Aline|Uwase|Computer Science|2|3
+CS101|C Programming|78|100
+CS102|Data Structures|65|100
+MA101|Discrete Mathematics|54|100

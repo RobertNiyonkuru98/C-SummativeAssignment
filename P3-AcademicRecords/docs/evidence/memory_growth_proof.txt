@@ -1,0 +1,500 @@
+  [mem] records 0 -> 4 slots
+
+  ==================================================================
+  Student ID : 100
+  Project    : Student Academic Records and Performance Analytics
+  Storage    : academic_records.txt
+  ==================================================================
+
+  Loaded 3 sample student(s) (capacity 4).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1005
+  First name: Eric
+  Last name: Habimana
+  Programme: Computer Science
+  Year of study (1-6): 2
+  Registered Eric Habimana (ID 1005, Computer Science, year 2).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  [mem] records 4 -> 8 slots
+  Student ID: 1006
+  First name: Samuel
+  Last name: Nkurunziza
+  Programme: Information Technology
+  Year of study (1-6): 1
+  Registered Samuel Nkurunziza (ID 1006, Information Technology, year 1).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1007
+  First name: Chantal
+  Last name: Umutoni
+  Programme: Computer Science
+  Year of study (1-6): 3
+  Registered Chantal Umutoni (ID 1007, Computer Science, year 3).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1008
+  First name: Patrick
+  Last name: Bizimana
+  Programme: Software Engineering
+  Year of study (1-6): 2
+  Registered Patrick Bizimana (ID 1008, Software Engineering, year 2).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1009
+  First name: Josiane
+  Last name: Ineza
+  Programme: Software Engineering
+  Year of study (1-6): 1
+  Registered Josiane Ineza (ID 1009, Software Engineering, year 1).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  [mem] records 8 -> 16 slots
+  Student ID: 1010
+  First name: Fabrice
+  Last name: Nshuti
+  Programme: Computer Science
+  Year of study (1-6): 2
+  Registered Fabrice Nshuti (ID 1010, Computer Science, year 2).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1011
+  First name: Divine
+  Last name: Mutoni
+  Programme: Information Technology
+  Year of study (1-6): 2
+  Registered Divine Mutoni (ID 1011, Information Technology, year 2).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1012
+  First name: Jean
+  Last name: Rwigema
+  Programme: Software Engineering
+  Year of study (1-6): 3
+  Registered Jean Rwigema (ID 1012, Software Engineering, year 3).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 1
+
+  --- Register a new student ---
+  Student ID: 1013
+  First name: Claudine
+  Last name: Uwera
+  Programme: Computer Science
+  Year of study (1-6): 1
+  Registered Claudine Uwera (ID 1013, Computer Science, year 1).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1005
+  Deleting Eric Habimana (ID 1005).
+  Deleted. Students now: 11 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1006
+  Deleting Samuel Nkurunziza (ID 1006).
+  Deleted. Students now: 10 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1007
+  Deleting Chantal Umutoni (ID 1007).
+  Deleted. Students now: 9 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1008
+  Deleting Patrick Bizimana (ID 1008).
+  Deleted. Students now: 8 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1009
+  Deleting Josiane Ineza (ID 1009).
+  Deleted. Students now: 7 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1010
+  Deleting Fabrice Nshuti (ID 1010).
+  Deleted. Students now: 6 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1011
+  Deleting Divine Mutoni (ID 1011).
+  Deleted. Students now: 5 (capacity 16).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1012
+  Deleting Jean Rwigema (ID 1012).
+  [mem] records 16 -> 8 slots (shrunk)
+  Deleted. Students now: 4 (capacity 8).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1013
+  Deleting Claudine Uwera (ID 1013).
+  Deleted. Students now: 3 (capacity 8).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1004
+  No student with ID 1004 - nothing deleted.
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 5
+  Student ID to delete: 1003
+  Deleting Diane Mukamana (ID 1003).
+  [mem] records 8 -> 4 slots (shrunk)
+  Deleted. Students now: 2 (capacity 4).
+
+  ------------------------- MENU -------------------------
+   1. Register a new student
+   2. Display all students
+   3. View a student's details
+   4. Update student information
+   5. Delete a student record
+   6. Add a course to a student
+   7. Update marks for a course
+   8. Display a student's performance
+   9. Search students (ID / name / programme)
+  10. Sort students (ID / name / average / programme)
+  11. Generate the academic report
+  12. Save records to file
+  13. Load records from file
+  14. Exit
+  --------------------------------------------------------
+  Enter choice: 14
+
+  Save before exiting? [y/N]: n
+  Exiting.
+
+  All memory released. Goodbye.

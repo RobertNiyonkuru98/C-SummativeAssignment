@@ -1,0 +1,31 @@
+
+  ================== MULTI-THREADED DOCUMENT ANALYZER ==================
+  Student ID : 100
+  Search keyword   : IoT
+  Input files      : 3
+  ======================================================================
+  [Main] Creating thread 1 for samples/document1.txt
+  [Main] Creating thread 2 for samples/document2.txt
+  [Thread 1] Processing samples/document1.txt ...
+  [Main] Creating thread 3 for samples/document3.txt
+  [Thread 2] Processing samples/document2.txt ...
+  [Main] 3 thread(s) started, waiting for them to finish...
+  [Thread 3] Processing samples/document3.txt ...
+  [Thread 3] Successfully processed samples/document3.txt (8 line(s), 0 occurrence(s))
+  [Thread 2] Successfully processed samples/document2.txt (12 line(s), 1 occurrence(s))
+  [Thread 1] Successfully processed samples/document1.txt (12 line(s), 7 occurrence(s))
+
+  ===== PROCESSING SUMMARY =====
+
+  samples/document1.txt          Completed (12 lines, 6 matches)
+  samples/document2.txt          Completed (12 lines, 1 matches)
+  samples/document3.txt          Completed (8 lines, 0 matches)
+
+  Files completed : 3
+
+  Reports written :
+    samples/document1_report.txt
+    samples/document2_report.txt
+    samples/document3_report.txt
+
+  All processing tasks completed. Memory released.

@@ -1,0 +1,3 @@
+$ gcc -pthread -Wall -Wextra -std=c11 -pedantic docanalyzer.c -o docanalyzer
+exit status: 0
+warnings: 0
